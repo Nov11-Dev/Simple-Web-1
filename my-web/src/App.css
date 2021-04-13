@@ -1,0 +1,131 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+input 
+{
+  margin: 5px;
+  width: 98%;
+  height: 45px;
+  border: none;
+  border-bottom: 2px solid silver;
+  font-size: 20px;
+}
+
+
+ul {
+  list-style: none;
+  padding: 0px;
+}
+
+table 
+{
+  padding-top:0px;
+  width: 100%;
+  border-bottom: 2px solid silver;
+}
+
+img 
+{
+  /* width: 120px; */
+  height: 120px;
+  border-radius: 50%;
+  border: 0.5px solid gray;
+}
+
+#d1 
+{
+  width: 120px;
+  padding-left: 20px;
+  padding-right:20px; 
+  /* border: 1px solid green; */
+}
+
+#d2 
+{
+  width:auto;
+  /* border: 1px solid red; */
+}
+
+#d3 
+{
+  width: auto;
+  /* border: 1px solid blue; */
+
+}
+button 
+{
+  margin-top:0px;
+  margin-right: 0px;
+}
+
+#name
+{
+  font-size: xx-large;
+  padding-left: 20px;
+  margin-bottom: 10px;;
+}
+
+#text {
+  margin: 0px;
+  padding: 0px;
+}
+
+.info 
+{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-left: 40px;
+}
+
+#gradesList 
+{
+  display: none;
+}
+
+span {
+  content: "\002B";
+}
+
+label 
+{
+  background-color: silver;
+  padding: 5px;
+  margin: 1px;
+  border-radius: 20%;
+}
